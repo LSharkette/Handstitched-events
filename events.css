@@ -1,7 +1,7 @@
 body{
   font:serif;
   font-size: 12px;
-  background:url("http://livinator.com/wp-content/uploads/2014/01/shabby-chic-1.jpg");
+  background:url("http://dty8d8u6se0an.cloudfront.net/media/image/thumbnail/410271_old-planks_1440x1100.jpg");
   background-size: cover;
   width: 100%;
 }
@@ -44,13 +44,13 @@ body:before {
 .header{
   font-family: 'Homemade Apple', cursive;
   text-align: center;
-  font-size: 48px;;
+  font-size: 58px;;
   font-weight: 500;
   color:#EEE;
   display: block;
   padding: 0;
-  margin-top: 5%;
-  margin-bottom: 5%;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 
 
@@ -87,4 +87,15 @@ body:before {
     margin-top: 2%;
     display: inline-block;
     margin-left: 5%;
+}
+
+.boxes2{
+  background-color: #EEE;
+  margin-left: 5%;
+  margin-bottom: 5%;
+}
+
+.services, .gallery, .vendorlist, .p1{
+  font-family: 'Homemade Apple', cursive;
+  font-size: 26px;
 }
