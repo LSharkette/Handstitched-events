@@ -1,12 +1,13 @@
 body{
   font:serif;
   font-size: 12px;
-  background:url("http://dty8d8u6se0an.cloudfront.net/media/image/thumbnail/410271_old-planks_1440x1100.jpg");
-  background-size: cover;
+  /*background:url("http://www.hdwalley.com/wp-content/uploads/2015/10/white_background_elegant_backgrounds_2072_high_definition.jpg");
+  background-size: cover;*/
   width: 100%;
+  font-family: 'Fanwood Text', serif;
 }
 p{
-  color: #EEE;
+  color:#0F173B;
   text-align: center;
   font-size: 20px;
   margin: 2%;
@@ -14,7 +15,7 @@ p{
 nav{
   text-align: right;
   font-size:20px;
-  color: #EEE;
+  color: #0F173B;
   margin-right: 5%;
   margin-top: 2%;
 }
@@ -28,29 +29,28 @@ footer{
 /*Centering background image*/
 
 
-/*setting gradient over background*/
+/*setting gradient over background
 body:before {
     content: " ";
     height: 100%;
     position: fixed;
     z-index: -1;
-    left: 2%;
-    right: 2%;
     bottom: 0;
-    background: -webkit-radial-gradient(bottom left, ellipse cover, rgba(0, 0, 0, 0.1) 0%, rgba(100, 100, 99, .9) 100%);
+    background: -webkit-radial-gradient(bottom left, ellipse cover, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, .1) 100%);
 }
 
 /*Landing page*/
 .header{
-  font-family: 'Homemade Apple', cursive;
+font-family: 'Sacramento', cursive;
   text-align: center;
   font-size: 58px;;
   font-weight: 500;
-  color:#EEE;
+  color: #0F173B;
   display: block;
   padding: 0;
   margin-top: 2%;
   margin-bottom: 2%;
+  background-color: #EEE;
 }
 
 
@@ -96,6 +96,41 @@ body:before {
 }
 
 .services, .gallery, .vendorlist, .p1{
-  font-family: 'Homemade Apple', cursive;
+
+  font-family: 'Sacramento', cursive;
   font-size: 26px;
+}
+
+.box1{
+  margin: 0, auto;
+  margin-left: 41%;
+}
+
+.boxservice{
+  width: 300px;
+  height: 150px;
+  margin: 3% 1.5%;
+  width: 25%;
+  min-width: 250px;
+  margin-top: 2%;
+  display: inline-block;
+  margin-left: 5%;
+  font-family: 'Fanwood Text', serif;
+  font-size: 150%;
+}
+
+.title{
+  font-family: 'Sacramento', cursive;
+  font-size: 250%;
+  text-align: center;
+}
+
+.services{
+  margin-top: 150px;
+}
+
+.quote1{
+  font-family: 'Sacramento', cursive;
+  font-size: 250%;
+  text-align: center;  
 }
